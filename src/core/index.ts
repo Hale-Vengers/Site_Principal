@@ -1,1 +1,1 @@
-export { BlueBorderBackground, Layout } from "./components";
+export { Layout } from "./components";

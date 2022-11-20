@@ -2,11 +2,9 @@
 import { css } from "@emotion/react";
 import { FC } from "react";
 
-import { BlueBorderBackground } from "../../core";
 import { default as SpinnerSvg } from "../assets";
 
 export const LoadingScreen: FC = () => (
-  <BlueBorderBackground backgroundColor={"white"}>
     <div
       className="container"
       css={css`
@@ -26,5 +24,4 @@ export const LoadingScreen: FC = () => (
       <h2>Chargement</h2>
       <img src={SpinnerSvg} alt="Spinner" width="10%" />
     </div>
-  </BlueBorderBackground>
 );
