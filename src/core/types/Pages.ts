@@ -1,1 +1,6 @@
-export type Pages = "/home" | "/members" | "/manuscripts" | "/gallery" | "/calendar"
+export type Pages =
+  | "/home"
+  | "/members"
+  | "/manuscripts"
+  | "/gallery"
+  | "/calendar";

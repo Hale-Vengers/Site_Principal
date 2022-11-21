@@ -1,2 +1,2 @@
-export {LogoImage} from "./images";
-export {SecretSound} from "./sounds";
+export { LogoImage } from "./images";
+export { SecretSound } from "./sounds";
