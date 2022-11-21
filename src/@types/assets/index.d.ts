@@ -21,3 +21,8 @@ declare module "*.json" {
   const content: string;
   export default content;
 }
+
+declare module "*.m4a" {
+  const content: string;
+  export default content;
+}
